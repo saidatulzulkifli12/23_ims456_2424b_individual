@@ -5,6 +5,13 @@ h1
         font-style:normal
     }
 
+h2
+    {
+        color: rgb(0, 52, 163);
+        font-size: 10pt;
+        font-style:normal
+    }
+
 a
 
     {
@@ -25,7 +32,7 @@ a:hover
 .logo
     {
         width: 30%;
-        height: 50px;
+        height: 53px;
         background-color: rgb(143, 175, 188);
         float:left;
     }
@@ -33,15 +40,16 @@ a:hover
 .menu
     {
         width: 70%;
-        height: 50px;
+        height: 53px;
         background-color: rgb(143, 188, 184);
+        text-align: center;
         float:left;
     }
 
 .slider
     {
         width: 100%;
-        height: 500px;
+        height: 907px;
         background-color: rgb(240, 235, 175);
         float:left;
     }
@@ -97,7 +105,7 @@ a:hover
  .footer
     {
         width: 100%;
-        height: 30px;
+        height: 50px;
         background-color: rgb(145, 227, 247);
         float:left;
     }
