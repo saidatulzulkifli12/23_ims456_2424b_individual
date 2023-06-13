@@ -109,3 +109,36 @@ a:hover
         background-color: rgb(145, 227, 247);
         float:left;
     }
+
+    table, tr, td,th
+        {
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+
+    td
+        {
+            padding: 5px;
+        }
+
+    th
+        {
+            background-color: black;
+            color: palevioletred;
+        }
+
+    tr
+        {
+            background-color: lightpink;
+        }
+
+    tr:nth-child(odd)
+        {
+            background-color: bisque;
+        }
+
+    tr:hover
+    {
+        background-color: cadetblue;
+    }
+
